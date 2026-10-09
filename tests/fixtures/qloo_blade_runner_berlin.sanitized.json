@@ -1,0 +1,43 @@
+{
+  "fixture_version": 1,
+  "source": "Qloo Taste AI live API; sanitized",
+  "query": {
+    "seed": "Blade Runner",
+    "target_type": "urn:entity:place",
+    "location": "Berlin"
+  },
+  "resolved_entities": [
+    {
+      "entity_id": "A74A74BB-CE73-4A76-807B-8BD1714BC463",
+      "name": "Blade Runner",
+      "type": "urn:entity:movie"
+    },
+    {
+      "entity_id": "3A02361C-987B-4F7E-9AAD-071C3853AD92",
+      "name": "Blade Runner 2049",
+      "type": "urn:entity:movie"
+    },
+    {
+      "entity_id": "CDB72059-0866-479D-900A-F5DF770F049C",
+      "name": "The Maze Runner",
+      "type": "urn:entity:movie"
+    }
+  ],
+  "recommendations": [
+    {
+      "entity_id": "32EC682B-DD31-44CA-8E07-430AD643F0E4",
+      "name": "The Wall Museum",
+      "type": "urn:entity"
+    },
+    {
+      "entity_id": "6833F992-A71C-4B53-B339-C8830E13A557",
+      "name": "Memorial to the Murdered Jews of Europe",
+      "type": "urn:entity"
+    },
+    {
+      "entity_id": "22401C11-16E5-47F0-9E24-F9AC744322C4",
+      "name": "East Side Gallery",
+      "type": "urn:entity"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Pulse Taste Scout</title><meta name="description" content="Cultural intelligence for decisions that actually fit you.">
+<link rel="stylesheet" href="/static/style.css"></head>
+<body><main>
+  <header><span class="eyebrow">PULSE × QLOO TASTE AI</span><h1>Tell us what you love.<br><em>We’ll tell you what fits.</em></h1><p>Give the agent a few cultural favorites, a place, and a real decision. Qloo resolves those signals into real cultural entities and cross-domain affinities. The agent uses those affinities to rank and explain recommendations that a generic LLM would otherwise guess.</p></header>
+  <section class="input-card">
+    <form id="scout-form"><label>Your taste seeds <span>comma-separated</span><input id="seeds" value="Blade Runner, A24, Burial, Muji" required></label>
+      <div class="row"><label>City or context<input id="city" value="Berlin" required></label><label>Your real decision<input id="decision" value="What cultural night would I actually enjoy this weekend?" required></label></div>
+      <div class="fixtures"><button type="button" data-case="1">Berlin night</button><button type="button" data-case="2">Slow weekend</button><button type="button" data-case="3">City experience</button></div>
+      <button class="primary" type="submit">Scout my fit <span>→</span></button>
+    </form>
+  </section>
+  <div id="status" aria-live="polite"></div><section id="results" hidden></section>
+</main><footer>Qloo affinities are aggregate cultural signals, not personal facts. Always verify live availability.</footer>
+<script src="/static/app.js" defer></script></body></html>
